@@ -1,9 +1,9 @@
 import './App.css';
-import { Grid } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import {
   FooterGrid,
   HeaderGrid,
-  Item,
+  Item, LogoText,
   MainGrid,
   MainWrap,
   SidebarGrid,
@@ -13,7 +13,12 @@ function App () {
   return (
     <MainWrap container>
       <HeaderGrid item xs={12}>
-        <Item>Header</Item>
+        <Item>
+          <LogoText variant="h1" component="h2">
+            Trip my dream
+          </LogoText>;
+
+        </Item>
       </HeaderGrid>
       <SidebarGrid item xs={3}>
         <Item>SideBar</Item>

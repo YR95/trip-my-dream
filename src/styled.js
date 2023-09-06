@@ -1,10 +1,17 @@
-import { Grid, styled } from '@mui/material';
+import { Grid, styled, Typography } from '@mui/material';
 
 export const MainWrap = styled(Grid)
 (
   () => ({
     height: '100vh',
     width: '100vw',
+  }));
+
+export const LogoText = styled(Typography)
+(
+  () => ({
+    color: 'white',
+
   }));
 export const Item = styled('div')(
   () => ({
@@ -17,18 +24,22 @@ export const HeaderGrid = styled(Grid)(
   () => ({
     backgroundColor: 'violet',
     height: '15%',
+    display: 'flex',
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'center',
 
   }));
 export const FooterGrid = styled(Grid)(
   () => ({
     backgroundColor: 'violet',
-    height: '20%',
+    height: '15%',
 
   }));
 export const SidebarGrid = styled(Grid)(
   () => ({
     backgroundColor: 'blue',
-    height: '65%',
+    height: '75%',
 
   }));
 
