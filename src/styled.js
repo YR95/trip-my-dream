@@ -18,6 +18,8 @@ export const Item = styled('div')(
 
     padding: 0,
     textAlign: 'center',
+    overflow: 'auto',
+    height: '100%',
 
   }));
 export const HeaderGrid = styled(Grid)(
@@ -33,13 +35,13 @@ export const HeaderGrid = styled(Grid)(
 export const FooterGrid = styled(Grid)(
   () => ({
     backgroundColor: 'violet',
-    height: '15%',
+    height: '20%',
 
   }));
 export const SidebarGrid = styled(Grid)(
   () => ({
     backgroundColor: 'blue',
-    height: '75%',
+    height: '65%',
 
   }));
 
